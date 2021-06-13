@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Discord Token Checker.exe" version="1.0.0.2" publicKeyToken="2246750e1a62b19b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="2115955.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Discord Token Checker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Discord Token Checker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Discord Token Checker.exe" size="95696">
+      <assemblyIdentity name="Discord Token Checker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7lN2MUGm0mr5XrSeQVh/xuC3nlRMXibEsZiFgT6uRLo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="2115955.ico" size="28482">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tP0fUVvQjCesaGKPHfckUZ5kUlgBgZOK5p+17xWtxFA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Discord Token Checker.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-EKVSA1PF\eh" issuerKeyHash="00d54ab9c456d17a71c1d72ccdca019aab645606" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MYFSEXcTONDDBXLjaU4zppWePGfxzq/ZUMW9xW9L3ZA=</DigestValue></Reference></SignedInfo><SignatureValue>TvKJ/cvCg0rLIytiBM0RUhmUIrHblqQbVNd8/JqSo7Cfr5dFn8BO+xdDWyETYXDRxaGXi3OthuKRk3x8vcWcJjyf3tExHLKHAmQpFKuMktKoqE8jfHWDRHFP+E0dtvpQ317wzj8Mwa36SN4rgw8cccWS2bqp2mpEUOToUnkGnZI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vpqo4wCwGbPfGUWEZdSBKkSEpBzp1X+HMt5/V9I2jWGuDsRdippmTMiZ9gwvNNDHM9f6mh4n1doy+NwLRI9JI0jxLgB9Z63UksnqTpHTCvI7zrtIZPdgNxPwltNPXZUlLOQ12sRiNJTT0yC2ITNvaDxiFGPW4pCfekvACUE+0CU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="90dd4b6fc5bdc550d9afcef1673c9e95a6334e69e37205c3d038137711528131" Description="" Url=""><as:assemblyIdentity name="Discord Token Checker.exe" version="1.0.0.2" publicKeyToken="2246750e1a62b19b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-EKVSA1PF\eh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oi1JOVYRMJec5JUSk5ZWydabKAPZhJ4NqiJX+FkhiR8=</DigestValue></Reference></SignedInfo><SignatureValue>MEYvwono7rqc5SixTZ2iVGfRJXrSo3/71VBHigbg6eWS1PxfdP2l1KnQ4KlA1azaFjyfC2+nvpT/XYZnhMSUEHDHf6pXwRbPDrD0JxFCfYwlUqGBns6/GQyGJqYN1y91DLeC+7Z4omJJkt+ubqfG5AJsuBqXhA+e4P5DNY/zUz8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vpqo4wCwGbPfGUWEZdSBKkSEpBzp1X+HMt5/V9I2jWGuDsRdippmTMiZ9gwvNNDHM9f6mh4n1doy+NwLRI9JI0jxLgB9Z63UksnqTpHTCvI7zrtIZPdgNxPwltNPXZUlLOQ12sRiNJTT0yC2ITNvaDxiFGPW4pCfekvACUE+0CU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQPVV796ye4pNL2tuytLAE3TANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQATABBAFAAVABPAFAALQBFAEsAVgBTAEEAMQBQAEYAXABlAGgwHhcNMjEwNjEzMDIxNzI2WhcNMjIwNjEzMDgxNzI2WjAvMS0wKwYDVQQDHiQATABBAFAAVABPAFAALQBFAEsAVgBTAEEAMQBQAEYAXABlAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL6aqOMAsBmz3xlFhGXUgSpEhKQc6dV/hzLef1fSNo1hrg7EXYqaZkzImfYMLzTQxzPX+poeJ9XaMvjcC0SPSSNI8S4AfWet1JLJ6k6R0wryO867SGT3YDcT8JbTT12VJSzkNdrEYjSU09MgtiEzb2g8YhRj1uKQn3pLwAlBPtAlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAS0LsLiwtHoP1PSLi7oePK7mOQc3q+BoniTDgzvgdXbKFtFZs68P0oyJd2p7CTJCy+RaHhgQ6aln8xfFNWJLbgM3ginksXd/v0vcqQtIkCER86oeeDDIGDx+8E/6e08E+nB8COmIv5BWcaREHPDvfeYPOWQV7KMfHNPWjT+dFuxQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
