@@ -25,14 +25,14 @@ namespace Discord_Token_Checker
             if (!principal.IsInRole(WindowsBuiltInRole.Administrator))
             {
                 Console.Clear();
-                Console.Title = $"Discord Token Checker | Made By Aquaries";
+                Console.Title = $"Discord Token Checker | Made By Kyro#0102";
                 MessageBox((IntPtr)0, "This program wasn't ran as administrator, this will cause the program to run into error most of the time, please re-start the program and run as administrator.", "Discord Token Checker", 0);
                 Console.WriteLine("Please run this program as admin.");
                 Console.ReadLine();
             }
             else
             {
-                Console.Title = $"Discord Token Checker | Made By Aquaries";
+                Console.Title = $"Discord Token Checker | Made By Kyro#0102";
             }
             string url = "https://discordapp.com/api/v9/users/@me/guilds";
             Console.Clear();
